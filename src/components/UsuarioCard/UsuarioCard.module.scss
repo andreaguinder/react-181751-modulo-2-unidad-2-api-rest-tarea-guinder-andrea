@@ -1,0 +1,29 @@
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.1), 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    width: 270px;
+    height: 160px;
+
+    h2 {
+        font-size: 18px;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 600;
+        color: rgb(125, 4, 81);
+    }
+
+    h3 {
+        font-size: 16px;
+        color: rgb(247, 93, 190);
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

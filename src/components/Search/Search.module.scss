@@ -1,0 +1,55 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 50px auto 30px;
+
+
+    h1 {
+        font-size: 24px;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 600;
+        color: rgb(247, 93, 190);
+    }
+
+    input {
+        background-color: white;
+        color: black;
+        width: 270px;
+        height: 32px;
+        padding: 2px 6px;
+        border-radius: 8px;
+        border: 2px solid rgb(125, 4, 81);
+
+        &::placeholder {
+            color: gray;
+        }
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+
+    .search {
+        gap: 32px;
+        margin: 80px auto 40px;
+
+
+        h1 {
+            font-size: 32px;
+        }
+
+        input {
+            width: 500px;
+            height: 48px;
+            padding: 4px 8px;
+            border-radius: 8px;
+            border: 3px solid rgb(125, 4, 81);
+        }
+
+    }
+
+}
