@@ -46,7 +46,7 @@ Para clonar, instalar las dependencias y ejecutar este proyecto en tu entorno lo
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone <https://github.com/andreaguinder/react-181751-modulo-2-unidad-1-hooks-tarea-1-guinder-andrea.git>
+   git clone <https://github.com/andreaguinder/react-181751-modulo-2-unidad-2-api-rest-tarea-guinder-andrea.git>
 
 2. **Ingresar a la carpeta del proyecto**
 Luego moverse del directorio que se creó con el nombre del proyecto:
